@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+/* width and color of scrollbar track */
+::-webkit-scrollbar-track,
+::-ms-scrollbar-track,
+::-moz-scrollbar-track,
+::-o-scrollbar-track {
+  width: 6px;
+  background-color: #f5f5f5;
+}
+
+/* width and color of scrollbar thumb */
+::-webkit-scrollbar-thumb,
+::-ms-scrollbar-thumb,
+::-moz-scrollbar-thumb,
+::-o-scrollbar-thumb {
+  width: 6px;
+  background-color: #ccc;
+}
+
+/* hover effects for scrollbar thumb */
+::-webkit-scrollbar-thumb:hover,
+::-ms-scrollbar-thumb:hover,
+::-moz-scrollbar-thumb:hover,
+::-o-scrollbar-thumb:hover {
+  background-color: #999;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90% !important;
+    margin: auto;
+}
+header{
+    min-height: 100vh;
+}
+nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.navigation li {
+    display: inline-block; /* Add this line */
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.navigation li:first-child {
+    margin-left: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+ ul li, h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    color: rgb(8, 170, 121);
+}
+section{
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
