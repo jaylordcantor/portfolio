@@ -31,25 +31,49 @@ html, body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .container{
-    width: 90% !important;
+    max-width: 90vw;
     margin: auto;
 }
+.copyright {
+    align-self: center;
+    color: #444444;
+}
+footer {
+    background-color: #c0c0c0;
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+}
+.footer-content{
+    align-self: start;
+}
 header{
-    background-color: rgba(255, 255, 255, 0.5);
-    opacity: 0.5;
-    z-index: 1;
+    background-color: rgba(255, 255, 255, 1);
+    position:fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 999;
 }
 .hero {
     background-color: blanchedalmond;
     min-height: 100vh;
+}
+.logo h1 a {
+    color: rgb(8, 170, 121);
+    display: block;
+    text-decoration: none;
 }
 nav {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+nav .navigation ul li a {
+    text-decoration: none;
 }
 .navigation ul {
     list-style: none;
@@ -74,11 +98,10 @@ body {
  ul li, h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto', sans-serif;
 }
-.logo {
-    color: rgb(8, 170, 121);
-}
 section{
-    min-height: 100vh;
     background-color: aliceblue;
+    border: 1px solid #999;
+    display: flex;
+    min-height: 100vh;
 }
 
